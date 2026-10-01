@@ -1,0 +1,562 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="somos una cafeteria en Lima que te ofrece un lugar comodo para que disfrutes un buen café">
+        <meta name="author" content="">
+        <meta name="keywords" content="Cafetería en Lima;">
+
+        <title>Cafetería aromas y sabores</title>
+        <link rel="icon" href="favicon.ico" type="icono.png">
+        <link rel="stylesheet" href="https://googleapis.com">
+        <style type="text/css">
+            
+            a {
+              color: #030303;
+              text-decoration: none;
+              font-family: Roboto, sans-serif;
+              font-weight: bold;
+              margin: 20px;
+              font-size:16px;
+              text-align: center;
+              }
+            a:hover {
+              color:#730A0A;
+              font-size:17px;
+              }
+
+            html {
+                 scroll-behavior: smooth;
+                }
+
+            table, th, td {
+            border: 0px;}
+           
+            h1{
+                font-size: 40px;
+                font-weight: bold;
+                color: #FFFFFF;
+                text-align: left;
+                font-family: Roboto, sans-serif;
+                line-height: 35px;
+               }
+
+            h2{
+                font-size: 22px;
+                color: #4E7780;
+                line-height: 30px;
+                font-family: Roboto, sans-serif;
+                font-weight: 400;
+               }
+
+            h3{
+                color: #FFFFFF;
+                font-size: 20px;
+                font-weight: 300;
+                font-family: Roboto, sans-serif;
+                text-align: left;
+                line-height: 20px;
+               }
+
+            h4{
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Roboto, sans-serif;
+                text-align: left;
+                line-height: 30px;
+            }
+
+            h5{
+                color: #FFFFFF;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Roboto, sans-serif;
+                text-align: left;
+                line-height: 30px;
+            }
+
+            h6{
+                color: #4E7780;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Roboto, sans-serif;
+                text-align: left;
+                line-height: 30px;
+            }
+
+
+            p, ul{
+                font-size: 18px;
+                font-weight: 100;
+                font-family: Roboto, sans-serif;
+                line-height: 20px;
+              }
+
+            button {
+                cursor: pointer;
+                padding: 5px 10px;
+                background-color:#FFFFFF;
+                border: 2px solid #4E7780;
+                border-radius: 5px;
+            } 
+
+            button a{
+                color: #FFFFFF;
+                font-size: 16px;
+                color: #4E7780;
+                font-weight: 100px;
+            }
+
+            button:hover {
+                background-color:#4E7780;
+            }
+
+            button:hover a{
+                color: #FFFFFF;
+            }
+
+            /* Contenedor principal del formulario */
+
+            form {
+                 margin: 0 auto;
+                 padding: 20px;
+                 background: #f9f9f9;
+                 border: 1px solid #ccc;
+                 border-radius: 8px;
+                 font-family: Arial, sans-serif;
+               }
+
+
+            label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: bold;
+                color: #333;
+                }
+
+            input[type="text"],
+            input[type="email"],
+            textarea {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+            }
+
+            input:focus,
+              textarea:focus {
+              outline: none;
+              border-color: #007bff;
+              background-color: #fff;
+              }
+            
+            button[type="submit"] {
+              width: 100%;
+              padding: 12px;
+              background-color: #007bff;
+              color: #FFFFFF;
+              border: none;
+              border-radius: 4px;
+              font-size: 16px;
+              cursor: pointer;
+              transition: background-color 0.2s ease;
+            }
+
+            button[type="submit"]:hover {
+              background-color: #0056b3;
+            }
+            /* Fin de contenedor principal del formulario */
+           
+        </style>
+    </head> 
+    
+    <body bgcolor= "#4E7780">
+
+ <!--MENÚ-->
+    
+     <header>  
+            <table width="100%" padding= "20px" bgcolor= "#FFFFFF">  
+                <tr>
+                <td width="150px">
+                </td>
+                
+                <td width="250px" align="center">
+                  <a href="index.html">
+                  <img src="dist/imagenes/logo-cafeteria-aroma-y-sabor.png" width="250px" height="120px" alt="">
+                  </a>
+                </td> 
+                
+                <td width="450px" align="center" heigth= "40px" >
+                   <nav>
+                   <td width="100px"><a href="#historia">Historia</button></a></td>
+                   <td width="150px"><a href="#productos">Productos</button></a></td>
+                   <td width="150px"><a href="#multimedia">Multimedia</button></a></td>
+                   <td width="150px"><a href="#encuentranos">Encuéntranos</button></a></td>
+                   </nav>
+                </td>
+                
+                <td width="150px">
+                </td>
+                
+                </tr>
+
+            </table>    
+        </header>
+            
+        
+            
+   <!--BANNER DE BIENVENIDA-->
+    <main> 
+    <section>
+        <table style="background-image: url('dist/imagenes/banner-cafeteria-aroma-y-sabor.jpg')" width="100%" height="450px">
+            <tr>
+                <td width="150px"></td>
+                <td width="250px">
+                    <h1>Bienvenidos<br> a su Cafeteria<br>Aromas y Sabores</h1>
+                    <h3>Tenemos el mejor Café de Lima<br>
+                    acompañado de los mejores postres</h3>
+                </td>
+                <td width="450px"></td>
+                <td width="150px"></td>
+            </tr>
+        </table>
+    </section> 
+    </main>
+
+
+
+<!--HISTORIA-->
+
+     <section>
+         <table>
+            <tr>
+                <td id="historia" height="100px"></td>
+            </tr>
+            <tr>
+                <td width="400px"></td>
+                <td width="850px">
+                    <h2 style="color:#FFFFFF; text-align: center; font-size:30px;">Somos una cafeteria<br> con mucho aroma y sabor</h2>
+                    <p style="color:#FFFFFF; text-align: center;">En el corazón de Lima, Aroma y Sabor nació del sueño de rendir homenaje al mejor café peruano y ofrecer un refugio acogedor en medio del ritmo acelerado de la ciudad. Lo que comenzó como un pequeño emprendimiento impulsado por la pasión, la perseverancia y el trabajo constante, se ha convertido en un punto de encuentro indispensable. En su propuesta destacan los granos seleccionados de valles cafetaleros locales, tostados con precisión para garantizar frescura y calidad excepcional en cada espresso, extracción artesanal y acompañamiento de repostería fina.<br><br>
+
+                    Más allá de sus productos, la verdadera esencia de la cafetería radica en una atención humana, cálida y personalizada, donde cada visitante es recibido con una sonrisa genuina. Gracias a la fidelidad de sus clientes y al esfuerzo continuo por superar sus propios límites, Aroma y Sabor sigue creciendo y proyectándose al futuro con paso firme, manteniendo intacta su promesa de brindar calidez, dedicación y una experiencia memorable en cada taza.</p>
+                </td>
+                <td width="50px"></td>
+                <td width="320px">
+                    <img src="dist/imagenes/mesera.png" width="300px">
+                </td>
+                <td width="300px"></td>
+            </tr>
+            <tr>
+                <td height="100px"></td>
+            </tr>
+         </table>
+     </section>
+        
+
+
+
+    <!--SERVICIOS O PRODUCTOS--> 
+    <section>
+
+        <table id="productos" width="100%">
+            <tr>
+                <td width="150px"></td>
+                <td width="1200px" cellspacing="15">
+                    <h5 style="text-align: center;">- NUESTROS PRODUCTOS - </h5>
+                </td>
+                <td width="150px"></td>
+            </tr>
+        </table>
+
+        <table  width="100%" cellspacing="30" >
+            <tr>  
+                <td width="150px"></td>
+                <td width="250px" bgcolor="#FFFFFF" align="center" height="450px">
+                    <img src="dist/imagenes/servicio-cafe.jpg" width="250px" margin-top="20px">
+                    <figure>
+                            <figcaption>
+                            <h2>Café</h2>
+                            <p color="#212121" align="center" >El mejor café en todo Lima</p>
+                            <button><a href="#encuentranos">Reservar</a></button>
+                        </figcaption>
+                    </figure>
+                </td>
+
+                <td width="250px" bgcolor="#FFFFFF" align="center" height="450px">
+                    <img src="dist/imagenes/servicio-desayunos.jpg" width="250px" margin-top="20px">
+                    <figure>
+                        <figcaption>
+                            <h2>Desayuno</h2>
+                            <p color="#212121" align="center">Disfruta de los mejores desayunos</p>
+                            <button><a href="#encuentranos">Reservar</a></button>
+                        </figcaption>
+                    </figure>
+                </td>
+
+                <td width="250px" bgcolor="#FFFFFF" align="center" height="450px">
+                    <img src="dist/imagenes/servicio-postres.jpg" width="250px" margin-top="20px">
+                        <figure>
+                            <figcaption>
+                            <h2>Postres</h2>
+                            <p color="#212121" align="center" >Disfrute de los Mejores Postres</p>
+                            <button><a href="#encuentranos">Reservar</a></button>
+                        </figcaption>
+                    </figure>
+                </td>
+
+                <td width="250px" bgcolor="#FFFFFF" align="center" height="450px">
+                    <img src="dist/imagenes/servicio-aperitivos.jpg" width="250px" margin-top="20px">
+                        <figure>
+                            <figcaption>
+                            <h2>Aperitivos</h2>
+                            <p color="#212121" align="center" >Disfrute de nuestra variedad en Aperitivos</p>
+                            <button><a href="#encuentranos">Reservar</a></button>
+                        </figcaption>
+                    </figure>
+                </td>
+
+                <td width="250px" bgcolor="#FFFFFF" align="center" height="450px">
+                        <img src="dist/imagenes/servicio-sandwich.jpg" width="250px" margin-top="20px">
+                        <figure>
+                            <figcaption>
+                            <h2>Sandwich</h2>
+                            <p color="#212121" align="center" >Disfrute de los Sandwiches</p>
+                            <button><a href="#encuentranos">Reservar</a></button>
+                        </figcaption>
+                    </figure>
+                </td>
+                <td width="150px"></td>
+            </tr>
+            <tr>
+                <td height="100px"></td>
+            </tr>
+
+            </table>  
+        </section>
+
+    <!--MULTIMEDIA-->
+    <section>
+
+        <table id="multimedia" width="100%" cellspacing="15" align="center">
+            <tr>
+            <td width="150px"></td>
+            <td width="1200px">
+                <h5 style="text-align: center;" >- CONTENIDO MULTIMEDIA -</h5>
+            </td>
+            <td width="150px"></td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <table>
+            <tr>
+            <td width="250px"></td>      
+            <td width="500px">
+                <iframe cellspacing="0" width="500" height="300" b src="https://www.youtube.com/embed/PRAGLqfNK1o?si=rvRFu9fBqlP4KOSy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td width="500px">
+                <iframe cellspacing="0" width="500" height="300" src="https://www.youtube.com/embed/fBVtXuA-xB8?si=lAnDizLaoS2Mbsh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td width="500px">
+                <iframe cellspacing="0" width="500" height="300" src="https://www.youtube.com/embed/oqTIwYPQOTs?si=r7RWNFOtcgAIdDWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td width="250px"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <tr>
+                <td height="100px"></td>
+            </tr>
+            </tr>
+        </table>
+    </section>
+
+    <!-- BLOQUE CONTACTO-->
+
+    <section>
+    <table id="encuentranos" width="100%">
+             <tr>
+                <td>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16719.783317579673!2d-77.01201590773974!3d-12.178522814518567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b780f6f25671%3A0xda41dca11a707dd2!2sC.C.%20Plaza%20Lima%20Sur!5e0!3m2!1ses-419!2spe!4v1789182781964!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </td>
+            </tr>
+    </table>
+
+    <table  width="100%" bgcolor="#FFFFFF" align="center" >
+            <tr>
+                <td height="80px"></td>
+            </tr>
+            <tr>
+                <td width="300px"></td>
+                <td width="400px" heigth="450px">
+                    <h6>Contáctanos</h6>
+                    <p>
+                        ¡Te esperamos en Aroma y Sabor! Ven a disfrutar de un espacio acogedor en Lima, perfecto para hacer una pausa, trabajar o encontrarte con amigos mientras degustas nuestros granos seleccionados y repostería artesanal.<br><br>
+                        Síguenos en nuestras redes o ponte en contacto con nosotros para reservas, pedidos y eventos especiales; estaremos encantados de atenderte con la calidez que nos caracteriza.
+                        </p>
+                        <ul>
+                        <li><b>Número de contacto:</b><br>
+                        01 123 456 789</li><br>
+                        <li><b>Correo:</b><br>
+                        informes@aromasysabores.com</li><br>
+                        <li><b>Dirección:</b><br>
+                        Calle 123, Lima</li>
+                    </ul>
+                </td>
+                <td width="50px"></td>
+                <td width="400px">
+                <form>
+                
+                <table width="100%" heigth="450px" cellpadding="10" bgcolor="#FFFFFF">
+                <tr>
+                    <td>
+                       <label>Nombres:</label><br>
+                       <input type="text" id="txtnombres" placeholder="Ingresa tu nombre" size="50">
+                    </td>
+                
+                    <td>
+                       <label>Apellidos:</label><br>
+                       <input type="text" id="txApellidos" placeholder="Ingresa tu apellido" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Celular:</label><br>
+                        <input type="text" id="txtcelular" placeholder="Ingresa tu nro de celular" size="50">
+                    </td>
+                    <td>
+                        <label>Correo:</label><br>
+                        <input type="email" id="correo"  size="50">
+                    </td>
+                </tr>
+ 
+ 
+                <tr>
+                     <td>
+                        <label>Género:</label><br>
+                        <input type="radio" name="genero" value="masculino" checked> Masculino
+                        <input type="radio" name="genero" value="femenino"> Femenino
+                    </td>
+                    <td>
+                        <label>Elija una sede</label><br>
+                        <input type="checkbox" name="gustoliterario" value="novelas"> Cercado de Lima
+                        <input type="checkbox" name="gustoliterario" value="cuentos"> Miraflores
+                        <input type="checkbox" name="gustoliterario" value="revistas"> Chorrillos
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Productos:</label><br>
+                        <select >
+                        <option value="">-Elige un producto-</option>
+                        <option value="lima">Café</option>
+                        <option value="arequipa">Desayunos</option>
+                        <option value="arequipa">Postres</option>
+                        <option value="trujillo">Aperitivos</option>
+                        <option value="trujillo">Sandwich</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                        <td>
+                            <button type="submit">Enviar</button>
+                        </td>
+                </tr>
+
+                </table>
+                </form>
+                </td>
+                <td width="150px"></td>
+            </tr>
+            <tr>
+                <td height="50px"></td>
+            </tr>
+
+    </table>
+    
+   
+        <!--PIE DE PÁGINA-->
+    <footer> 
+          <table width="100%" bgcolor="#210803">
+            <tr>
+                <td height="50px"></td>
+            </tr>
+            <tr>
+                <td width="150px"></td>
+                <td width="500px">
+                    <h5>Cafeteria Aromas y Sabores</h5>
+                    <p style="color:#FFFFFF;">
+                    Tenemos las mejores combinaciones con café<br>
+                    Dirección: Calle 123, Lima<br>
+                    Teléfono: 123-456-789<br>
+                    </p>
+                </td>
+            
+                <td width="500px" align="left">
+                <h5>Síguenos en redes sociales</h5>
+                    <p >
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img width="75" src="dist/imagenes/Logo-facebook.png" >
+                    </a>
+
+                    <a href="https://www.instagram.com/"target="_blank">
+                        <img width="75" src="dist/imagenes/Logo-instagram.png">
+                    </a>
+
+                    <a href="https://pe.linkedin.com/"target="_blank">
+                        <img width="75" src="dist/imagenes/Logo-linkedin.png">
+                    </a>
+
+                    </p>
+                </td>
+                <td width="150px"></td>
+            </tr>
+            <tr>
+                <td height="50px"></td>
+            </tr>
+          </table>           
+        </footer>
+
+   <!-- Code injected by live-server -->
+    <script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+
+</script>
+
+</body>
+</html>
